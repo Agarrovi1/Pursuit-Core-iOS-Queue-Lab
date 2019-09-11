@@ -62,13 +62,19 @@ Sample Output:  (Back) 31 - 2 - 16 - 9 (Front)
 func reversed<T>(q: Queue<T>) -> Queue<T> {
     var queue = q
     guard !queue.isEmpty else {return q}
-    var reversedQueue = Queue<T>()
+    var reversedStack = Stack<T>()
+    var answerQueue = Queue<T>()
     while !queue.isEmpty {
         if let value = queue.dequeue() {
-            reversedQueue.enqueue(value)
+            reversedStack.push(element: value)
         }
     }
-    return reversedQueue
+    while !reversedStack.isEmpty {
+        if let value = reversedStack.pop() {
+            answerQueue.enqueue(value)
+        }
+    }
+    return answerQueue
 }
 
 //5 Determine if two Queues are equal

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DAFFB2A2329893300CC3714 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAFFB292329893300CC3714 /* Stack.swift */; };
 		54FCCEE41FBBFA4E003FE776 /* AC_iOS_QueuesExercisesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FCCEE31FBBFA4E003FE776 /* AC_iOS_QueuesExercisesTests.swift */; };
 		54FCCEEF1FBBFB15003FE776 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FCCEEE1FBBFB15003FE776 /* Queue.swift */; };
 		54FCCEF11FBBFBA0003FE776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FCCEF01FBBFBA0003FE776 /* AppDelegate.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4DAFFB292329893300CC3714 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		54FCCECB1FBBFA4E003FE776 /* AC-iOS-QueuesExercises.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AC-iOS-QueuesExercises.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54FCCEDA1FBBFA4E003FE776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54FCCEDF1FBBFA4E003FE776 /* AC-iOS-QueuesExercisesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AC-iOS-QueuesExercisesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				54FCCEEE1FBBFB15003FE776 /* Queue.swift */,
+				4DAFFB292329893300CC3714 /* Stack.swift */,
 				54FCCEF01FBBFBA0003FE776 /* AppDelegate.swift */,
 			);
 			path = "Supporting Files";
@@ -198,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DAFFB2A2329893300CC3714 /* Stack.swift in Sources */,
 				54FCCEF11FBBFBA0003FE776 /* AppDelegate.swift in Sources */,
 				54FCCEEF1FBBFB15003FE776 /* Queue.swift in Sources */,
 				54FCCEF41FBBFBFC003FE776 /* QueueExercises.swift in Sources */,
